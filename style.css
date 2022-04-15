@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+h1 {
+   color: white; 
+   padding-top: 30px;
+}
+
 .wordle {
     position: absolute;
     background-color: black;
@@ -16,6 +21,7 @@
     background-color: black;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .input-letra {

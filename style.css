@@ -9,12 +9,12 @@ h1 {
 }
 
 .wordle {
-    position: absolute;
     background-color: black;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 15px;
+    /*margin-left: 590px;*/
 }
 
 .fundo {
@@ -22,6 +22,11 @@ h1 {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+
+}
+
+.teclado {
+    
 }
 
 .input-letra {

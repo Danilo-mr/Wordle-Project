@@ -6,6 +6,8 @@
 h1 {
    color: white; 
    padding-top: 30px;
+   align-content: center;
+   margin-right: 55px;
 }
 
 .wordle {
@@ -14,7 +16,37 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    /*margin-left: 590px;*/
+}
+
+#teclado-1 {
+    margin-left: 10px;
+}
+
+#teclado-2 {
+    margin-left: 10px;
+}
+
+#teclado-3 {
+    margin-left: 45px;
+}
+
+.teclado {
+    margin-top: 40px;
+}
+
+.tecla {
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    color: white;
+    background-color: #818384;
+    border: none;
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.wordle-table {
+   margin-left: 15%;
 }
 
 .fundo {
@@ -22,12 +54,8 @@ h1 {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
 }
 
-.teclado {
-    
-}
 
 .input-letra {
     width: 65px;

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wordle {
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+}
+
+.fundo {
+    background-color: black;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-letra {
+    width: 65px;
+    height: 70px;
+    font-size: 25px;
+    background-color: #3a3a3c;
+    border: none;
+    margin: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    outline: none;
+}
+

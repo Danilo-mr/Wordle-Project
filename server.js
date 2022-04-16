@@ -8,7 +8,8 @@ app.get("/", function(req, res) {
 })
 
 app.post("/validar-palavra", function(req, res) {
-    
+    let letras = [];
+    letras[0] = 
 })
 
 app.listen(3000);

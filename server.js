@@ -8,8 +8,13 @@ app.get("/", function(req, res) {
 })
 
 app.post("/validar-palavra", function(req, res) {
-    let letras = [];
-    letras[0] = 
+    /*let letras = document.getElementById("linha-1"); 
+    for(let i=0; i<letras.length; i++) {
+        console.log(letras[i]);
+    }*/
+    
+    console.log(req);
+    
 })
 
 app.listen(3000);

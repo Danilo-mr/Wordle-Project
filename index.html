@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,92 +8,96 @@
     <title>Bem vindo ao Wordle</title>
     <link rel="stylesheet" type="text/css" href="style.css" title="Style 1" media="screen">
 </head>
-<body>
-    <div class="fundo">
-        <h1>WORDLE</h1>
-        <div class="wordle">
-            <table class="wordle-table">
-                <tr>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                </tr>
-                <tr>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                </tr>
-                <tr>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                </tr>
-                <tr>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                </tr>
-                <tr>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                    <td><input class="input-letra" type="text" maxlength="1"></td>
-                </tr>
-                <tr>
 
-                </tr>
-            </table>
-            <div class="teclado">
-                <table id="teclado-1">
-                    <td><input class="tecla" type="button" value="Q"></td>
-                    <td><input class="tecla" type="button" value="W"></td>
-                    <td><input class="tecla" type="button" value="E"></td>
-                    <td><input class="tecla" type="button" value="R"></td>
-                    <td><input class="tecla" type="button" value="T"></td>
-                    <td><input class="tecla" type="button" value="Y"></td>
-                    <td><input class="tecla" type="button" value="U"></td>
-                    <td><input class="tecla" type="button" value="I"></td>
-                    <td><input class="tecla" type="button" value="O"></td>
-                    <td><input class="tecla" type="button" value="P"></td>
+<body>
+    <form action="http://127.0.0.1:3000/validar-palavra" method="POST">
+        <div class="fundo">
+            <h1>WORDLE</h1>
+            <div class="wordle">
+                <table class="wordle-table" name="wordletable">
+                    <tr name="linha1">
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                    </tr>
+                    <tr name="linha-2">
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                    </tr>
+                    <tr name="linha-3">
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                    </tr>
+                    <tr name="linha-4">
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                    </tr>
+                    <tr name="linha-5">
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                    </tr>
+                    <tr name="linha-6">
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                        <td><input class="input-letra" type="text" maxlength="1"></td>
+                    </tr>
                 </table>
-                <table id="teclado-2">
-                    <td><input class="tecla" type="button" value="A"></td>
-                    <td><input class="tecla" type="button" value="S"></td>
-                    <td><input class="tecla" type="button" value="D"></td>
-                    <td><input class="tecla" type="button" value="F"></td>
-                    <td><input class="tecla" type="button" value="G"></td>
-                    <td><input class="tecla" type="button" value="H"></td>
-                    <td><input class="tecla" type="button" value="J"></td>
-                    <td><input class="tecla" type="button" value="K"></td>
-                    <td><input class="tecla" type="button" value="L"></td>
-                    <td><input class="tecla" type="button" value="Ç"></td>
-                </table>
-                <table id="teclado-3">
-                    <td>
-                        <form action="http://127.0.0.1:3000/validar-palavra" method="POST">
-                            <input class="tecla" type="submit" value="Enter">
-                        </form>
-                    </td>
-                    <td><input class="tecla" type="button" value="Z"></td>
-                    <td><input class="tecla" type="button" value="X"></td>
-                    <td><input class="tecla" type="button" value="C"></td>
-                    <td><input class="tecla" type="button" value="V"></td>
-                    <td><input class="tecla" type="button" value="B"></td>
-                    <td><input class="tecla" type="button" value="N"></td>
-                    <td><input class="tecla" type="button" value="M"></td>
-                    <td><input class="tecla" type="button" value="Apaga"></td>
-                </table>
+                <div class="teclado">
+                    <table id="teclado-1">
+                        <td><input class="tecla" type="button" value="Q"></td>
+                        <td><input class="tecla" type="button" value="W"></td>
+                        <td><input class="tecla" type="button" value="E"></td>
+                        <td><input class="tecla" type="button" value="R"></td>
+                        <td><input class="tecla" type="button" value="T"></td>
+                        <td><input class="tecla" type="button" value="Y"></td>
+                        <td><input class="tecla" type="button" value="U"></td>
+                        <td><input class="tecla" type="button" value="I"></td>
+                        <td><input class="tecla" type="button" value="O"></td>
+                        <td><input class="tecla" type="button" value="P"></td>
+                    </table>
+                    <table id="teclado-2">
+                        <td><input class="tecla" type="button" value="A"></td>
+                        <td><input class="tecla" type="button" value="S"></td>
+                        <td><input class="tecla" type="button" value="D"></td>
+                        <td><input class="tecla" type="button" value="F"></td>
+                        <td><input class="tecla" type="button" value="G"></td>
+                        <td><input class="tecla" type="button" value="H"></td>
+                        <td><input class="tecla" type="button" value="J"></td>
+                        <td><input class="tecla" type="button" value="K"></td>
+                        <td><input class="tecla" type="button" value="L"></td>
+                        <td><input class="tecla" type="button" value="Ç"></td>
+                    </table>
+                    <table id="teclado-3">
+                        <td><input class="tecla" type="submit" value="Enter"></td>
+                        <td><input class="tecla" type="button" value="Z"></td>
+                        <td><input class="tecla" type="button" value="X"></td>
+                        <td><input class="tecla" type="button" value="C"></td>
+                        <td><input class="tecla" type="button" value="V"></td>
+                        <td><input class="tecla" type="button" value="B"></td>
+                        <td><input class="tecla" type="button" value="N"></td>
+                        <td><input class="tecla" type="button" value="M"></td>
+                        <td><input class="tecla" type="button" value="Apaga"></td>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
+    </form>
 </body>
+
 </html>

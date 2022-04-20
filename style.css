@@ -5,7 +5,7 @@
 
 h1 {
    color: white; 
-   padding-top: 30px;
+   padding-top: 20px;
    align-content: center;
    margin-right: 55px;
 }
@@ -59,7 +59,7 @@ h1 {
 
 .input-letra {
     width: 65px;
-    height: 70px;
+    height: 60px;
     font-size: 25px;
     background-color: #3a3a3c;
     border: none;
